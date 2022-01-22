@@ -1,0 +1,107 @@
+html{
+  margin: 0;
+  background-color: #ccbbbb;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  height: 100%;
+  width: 20%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+/* .nav-link{
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  display: block;
+} */
+
+.nav-text{
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.nav-head{
+  height: 100px;
+  text-align: center;
+}
+.nav-head:hover{
+  background-color: rgb(78, 163, 163);
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.btn{
+  font-size: 15px;
+  display: block;
+}
+
+.btn:hover{
+  color: rgb(6, 54, 197);
+  background-color: rgb(78, 163, 163);
+}
+
+.width{
+  width: 15rem;
+}
+
+.card{
+  border-radius: 10%;
+  background-color: #ffffff;
+  left : 10px;
+}
+
+.header{
+  background-color: #111;
+  text-align: center;
+  position: fixed;
+  top: 15px;
+  left: 21%;
+  width: 77%;
+  height: 150px;
+}
+
+height{
+height: 100px;
+width: 100px;
+}
+
+.text{
+  padding-top: 40px;
+  color: rgb(250, 250, 250);
+}
+
+.text-p{
+  color: red;
+}
+
+.home{
+  padding: 15px 10px 0px 10px;
+}
+
+.home-text{
+  font-size: larger;
+}
+
+.page{
+  text-align: center;
+  position: fixed;
+  top: 200px;
+  left: 21%;
+  width: 79%;
+}
